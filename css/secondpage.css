@@ -1,0 +1,116 @@
+.secondPage{
+    height: 200vh;
+    min-height: 2160px;
+    width: 100vw;
+    min-width: 900px;
+    background-image: linear-gradient(to bottom, #000000, #120b0e, #1d1419, #261a23, #2e212f, #3b2938, #493240, #573b48, #6a4a4c, #785c53, #81705d, #87846e);
+}
+
+.grid{
+    height: 200vh;
+    min-height: 2160px;
+    width: 100vw;
+    min-width: 900px;
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, #000000, #000000,rgb(65, 65, 65) 1px, transparent 1px),
+      linear-gradient(to bottom,#000000,#000000, rgb(65, 65, 65) 1px, transparent 1px);
+}
+
+.flexbox{
+    display: flex;
+}
+
+.proHeader{
+    width: 30vw;
+    float: left;
+    margin-left: 1vw;
+}
+
+.proHeader p{
+    font-size: 38vh;
+    text-align: center;
+}
+
+.projectDash{
+    width: 80vw;
+}
+
+.projectDash video{
+    width: 50vw;
+    float: right;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-right: 20%;
+    z-index: 0;
+}
+
+.projectStyle{
+    width: 50vw;
+    height: 50vh;
+    z-index: 2;
+    margin: auto;
+    margin-right: 14.35vw;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 7px rgba(255, 255, 255, 0.1);
+}
+
+.projectDesc{
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000;
+    font-size: 3em;
+    width: 80%;
+    margin: auto;
+}
+
+.red{
+    background-image: url('/images/tram.gif');
+    background-position: center;
+    background-size: cover;
+    margin-top: 14%;
+}
+
+.redBox{
+    /*
+    background-color: rgba(61, 110, 129, 0.5);
+    */
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+    transition: ease-in-out 0.5s;
+    opacity: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.redBox:hover{
+    opacity: 1;
+    z-index: 1;
+    transition: ease-in-out 0.5s;
+}
+
+#githubLogo{
+    margin: auto;
+    height: 25%;
+    display: table-cell;
+    padding-top: 17%;
+}
+
+.blue{
+    background-image: url('/images/news.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.green{
+
+    background-image: url('/images/dash.gif');
+    background-position: center;
+    background-size: cover;
+}

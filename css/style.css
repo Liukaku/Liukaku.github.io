@@ -1,0 +1,149 @@
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+li{list-style:none}
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+html,body{ 
+
+  background:#000;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  z-index: 0;
+}
+
+.navBar{
+  float: right;
+  margin-top: auto;
+  height: 100%;
+}
+
+.navBar p{
+  margin-top: 50vh;
+  font-size: 1.5em;
+}
+
+.progress{
+  position: fixed;
+  z-index: 3;
+  top: 0px;
+  height: 100%;
+  width: 130px;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+ul{
+  list-style: none;
+  font-family: ambroise-std, serif;
+  color: #fff;
+  margin-top: 40vh;
+  font-size: 1.7em;
+}
+
+li{
+  display: block;
+  user-select: none;
+}
+
+.hidden{
+  color: rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+
+.progressBar{
+  height: 0px;
+  background: #fff;
+  width: 2px;
+  float: left;
+}
+
+.titleCard{
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 50%;
+  -webkit-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  user-select: none; 
+}
+
+.titleCard h1, h3, p{
+  color: #fff;
+  font-family: ambroise-std, serif;
+}
+
+.titleCard h1{
+  font-size: 10em;
+}
+
+.titleCard p{
+  font-size: 5em;
+}
+
+.wrapper{
+  position: relative;
+  left: -50%;
+}
+
+.vl{
+  background-color: #fff;
+  width: 0.1vw;
+  height: 5vh;
+  z-index: 1;
+  position: absolute;
+  bottom: 0px;
+  left: 50vw;
+}
+
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: #000;
+  background-image: url('');
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}

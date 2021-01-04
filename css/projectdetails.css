@@ -1,0 +1,61 @@
+.projectDetails{
+    height: auto;
+    width: 100%;
+}
+
+.wrapStyle{
+    display: flex;
+    margin: auto;
+    width: 85%;
+    height: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    color: #fff;
+    font-family: ambroise-std, serif;
+    text-align: center;
+}
+
+.innerDiv{
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    margin-top: 0;
+}
+
+.wrapStyle h1{
+    font-size: 2.6em;
+    font-family: 'Oswald', sans-serif;
+}
+
+i {
+    color: rgb(206, 228, 228);
+}
+
+hr{
+    width: 40%;
+    margin-left: 30%;
+}
+
+.mobileProject{
+    display: none;
+}
+
+.pro1 p{
+    font-size: 1.6em;
+}
+
+
+.pro1 h2{
+    font-size: 2.2em;
+    font-family: 'Oswald', sans-serif;
+}
+
+.pro1 ul{
+    margin: 0;
+}
+
+.pro1 li{
+    font-size: 0.9em;
+}
