@@ -1,42 +1,43 @@
-.secondPage{
-    height: 200vh;
+.secondPage {
+    height: 237vh;
     min-height: 2160px;
     width: 100vw;
     min-width: 900px;
     background-image: linear-gradient(to bottom, #000000, #120b0e, #1d1419, #261a23, #2e212f, #3b2938, #493240, #573b48, #6a4a4c, #785c53, #81705d, #87846e);
 }
 
-.grid{
-    height: 200vh;
+.grid {
+    height: 237vh;
     min-height: 2160px;
     width: 100vw;
     min-width: 900px;
     background-size: 40px 40px;
     background-image:
-      linear-gradient(to right, #000000, #000000,rgb(65, 65, 65) 1px, transparent 1px),
-      linear-gradient(to bottom,#000000,#000000, rgb(65, 65, 65) 1px, transparent 1px);
+        linear-gradient(to right, #000000, #000000, rgb(65, 65, 65) 1px, transparent 1px),
+        linear-gradient(to bottom, #000000, #000000, rgb(65, 65, 65) 1px, transparent 1px);
 }
 
-.flexbox{
+.flexbox {
     display: flex;
 }
 
-.proHeader{
+.proHeader {
     width: 30vw;
     float: left;
     margin-left: 1vw;
+    margin-top: 250px;
 }
 
-.proHeader p{
+.proHeader p {
     font-size: 38vh;
     text-align: center;
 }
 
-.projectDash{
+.projectDash {
     width: 80vw;
 }
 
-.projectDash video{
+.projectDash video {
     width: 50vw;
     float: right;
     margin-top: 4%;
@@ -45,7 +46,7 @@
     z-index: 0;
 }
 
-.projectStyle{
+.projectStyle {
     width: 50vw;
     height: 50vh;
     z-index: 2;
@@ -57,7 +58,7 @@
     box-shadow: 0px 0px 25px 7px rgba(255, 255, 255, 0.1);
 }
 
-.projectDesc{
+.projectDesc {
     color: #000;
     background-color: rgba(255, 255, 255, 0.8);
     border-width: 1px;
@@ -68,14 +69,14 @@
     margin: auto;
 }
 
-.red{
+.red {
     background-image: url('/images/tram.gif');
     background-position: center;
     background-size: cover;
     margin-top: 14%;
 }
 
-.redBox{
+.redBox {
     /*
     background-color: rgba(61, 110, 129, 0.5);
     */
@@ -89,28 +90,35 @@
     border-radius: 10px;
 }
 
-.redBox:hover{
+.redBox:hover {
     opacity: 1;
     z-index: 1;
     transition: ease-in-out 0.5s;
 }
 
-#githubLogo{
+#githubLogo {
     margin: auto;
     height: 25%;
     display: table-cell;
     padding-top: 17%;
 }
 
-.blue{
+.blue {
     background-image: url('/images/news.gif');
     background-position: center;
     background-size: cover;
 }
 
-.green{
+.green {
 
     background-image: url('/images/dash.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.purple {
+
+    background-image: url('/images/theVoid.gif');
     background-position: center;
     background-size: cover;
 }
