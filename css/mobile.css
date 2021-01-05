@@ -1,59 +1,61 @@
 @media only screen and (max-width: 600px) {
-    body{
+    body {
         height: auto;
     }
 
-    ul{
+    ul {
         margin-top: 0px;
     }
 
-    .titleCard{
+    .titleCard {
         left: 0;
         margin-left: 45%;
         width: 50%;
     }
-    
+
     .titleCard h1 {
         font-size: 6em;
     }
 
-    .titleCard p{
+    .titleCard p {
         font-size: 3em;
     }
 
-    .wrapStyle{
+    .wrapStyle {
         display: flex;
         width: 100%;
         display: none;
     }
 
-    .innerDiv{
+    .innerDiv {
         width: 100%;
     }
 
-    .mobileProject p{
+    .mobileProject p {
         font-size: 2em;
     }
 
-    .mobileProject h1, h2, h3{
+    .mobileProject h1,
+    h2,
+    h3 {
         font-size: 3em;
         color: #fff;
         font-family: ambroise-std, serif;
     }
 
-    .mobileProject h4{
+    .mobileProject h4 {
         font-size: 2.5em;
         color: #fff;
         font-family: ambroise-std, serif;
     }
 
-    #particles-js{
+    #particles-js {
         height: 100vh;
         width: auto;
     }
 
 
-    .vl{
+    .vl {
         background-color: #fff;
         width: 0.1vw;
         height: 5vh;
@@ -64,152 +66,172 @@
         bottom: 0px;
     }
 
-    .projectDetails{
+    .projectDetails {
         width: 90%;
         margin-left: 5%;
         border-width: 1px;
         border-color: #fff;
         border-style: solid;
+        min-height: 410px;
     }
 
-    .pulsing{
-            -webkit-animation: heartbeat 1.5s 0.2s ease-in-out infinite both;
-                    animation: heartbeat 1.5s 0.2s ease-in-out infinite both;
+    .pulsing {
+        -webkit-animation: heartbeat 1.5s 0.2s ease-in-out infinite both;
+        animation: heartbeat 1.5s 0.2s ease-in-out infinite both;
     }
 
-    .pulsing2{
+    .pulsing2 {
         -webkit-animation: heartbeat 1.5s 1s ease-in-out infinite both;
         animation: heartbeat 1.5s 1s ease-in-out infinite both;
     }
 
-.pulsing3{
-    -webkit-animation: heartbeat 1.5s 0.5s ease-in-out infinite both;
-    animation: heartbeat 1.5s 0.5s ease-in-out infinite both;
+    .pulsing3 {
+        -webkit-animation: heartbeat 1.5s 0.5s ease-in-out infinite both;
+        animation: heartbeat 1.5s 0.5s ease-in-out infinite both;
+    }
+
+    .pulsing4 {
+        -webkit-animation: heartbeat 1.5s 1.5s ease-in-out infinite both;
+        animation: heartbeat 1.5s 1.5s ease-in-out infinite both;
     }
 
     @-webkit-keyframes heartbeat {
         from {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-          -webkit-transform-origin: center center;
-                  transform-origin: center center;
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
         }
+
         10% {
-          -webkit-transform: scale(0.91);
-                  transform: scale(0.91);
-          -webkit-animation-timing-function: ease-in;
-                  animation-timing-function: ease-in;
+            -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
         }
+
         17% {
-          -webkit-transform: scale(0.98);
-                  transform: scale(0.98);
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
+            -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
         }
+
         33% {
-          -webkit-transform: scale(0.87);
-                  transform: scale(0.87);
-          -webkit-animation-timing-function: ease-in;
-                  animation-timing-function: ease-in;
+            -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
         }
+
         45% {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
         }
-      }
-      @keyframes heartbeat {
+    }
+
+    @keyframes heartbeat {
         from {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-          -webkit-transform-origin: center center;
-                  transform-origin: center center;
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-transform-origin: center center;
+            transform-origin: center center;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
         }
+
         10% {
-          -webkit-transform: scale(0.91);
-                  transform: scale(0.91);
-          -webkit-animation-timing-function: ease-in;
-                  animation-timing-function: ease-in;
+            -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
         }
+
         17% {
-          -webkit-transform: scale(0.98);
-                  transform: scale(0.98);
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
+            -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
         }
+
         33% {
-          -webkit-transform: scale(0.87);
-                  transform: scale(0.87);
-          -webkit-animation-timing-function: ease-in;
-                  animation-timing-function: ease-in;
+            -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+            -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
         }
+
         45% {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-          -webkit-animation-timing-function: ease-out;
-                  animation-timing-function: ease-out;
+            -webkit-transform: scale(1);
+            transform: scale(1);
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
         }
-      }
-      
+    }
 
-    #pro1-details{
+
+    #pro1-details {
         display: none;
     }
 
-    #pro1-details2{
+    #pro1-details2 {
         display: none;
     }
 
-    #pro1-details3{
+    #pro1-details3 {
         display: none;
     }
 
-    .visible{
+    #pro1-details4 {
+        display: none;
+    }
+
+    .visible {
         display: block !important;
     }
 
-    .hideMe{
+    .hideMe {
         display: none;
     }
 
-    .mobileProject{
+    .mobileProject {
         display: block;
         text-align: center;
     }
 
-    .proHeader{
+    .proHeader {
         display: none;
     }
 
-    .projectStyle{
+    .projectStyle {
         width: 85vw;
         margin-left: 7.5vw;
         margin-bottom: 7vh;
         height: 30vh;
     }
 
-    .redBox{
+    .redBox {
         width: 85vw;
         margin-bottom: 7vh;
         height: 30vh;
-
-    }
-
-    .secondPage, .grid{
-        width: 100%;
-        min-width: 0;
-        height: 60vh;
-        min-height: 800px;
-    }
-
-    .progress{
         display: none;
     }
 
-    
-  }
+    .secondPage,
+    .grid {
+        width: 100%;
+        min-width: 0;
+        height: 170vh !important;
+        min-height: 1000px;
+    }
+
+    .progress {
+        display: none;
+    }
+
+
+}
