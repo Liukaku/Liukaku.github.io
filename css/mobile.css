@@ -225,12 +225,20 @@
     .grid {
         width: 100%;
         min-width: 0;
-        height: 170vh !important;
+        height: 220vh !important;
         min-height: 1000px;
     }
 
     .progress {
         display: none;
+    }
+
+    .contactForm {
+        width: 80%;
+        min-width: 350px;
+        margin: auto;
+        font-size: 1.4rem;
+        background-color: rgba(0, 0, 0, 0.596);
     }
 
 
