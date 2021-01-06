@@ -359,7 +359,8 @@ textarea {
   color: #fff;
   background-color: #000;
   font-family: ambroise-std, serif;
-  border: #000;
+  border: #fff 0.5px solid;
+  margin-bottom: 10px;
 }
 
 
